@@ -15,4 +15,4 @@ meta-spec:
 name: Dist-Zilla-Plugin-SurgicalPodWeaver
 requires:
   Dist::Zilla: 0
-version: 0.0020
+version: 0.0021
