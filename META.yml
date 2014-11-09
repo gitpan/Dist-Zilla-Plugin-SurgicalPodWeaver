@@ -25,15 +25,15 @@ name: Dist-Zilla-Plugin-SurgicalPodWeaver
 provides:
   Dist::Zilla::Plugin::SurgicalPodWeaver:
     file: lib/Dist/Zilla/Plugin/SurgicalPodWeaver.pm
-    version: '0.0022'
+    version: '0.0023'
 requires:
   Dist::Zilla::Plugin::PodWeaver: '0'
   Moose: '0'
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-SurgicalPodWeaver
   homepage: http://metacpan.org/release/Dist-Zilla-Plugin-SurgicalPodWeaver
-  repository: git://github.com/robertkrimen/Dist-Zilla-Plugin-SurgicalPodWeaver.git
-version: '0.0022'
+  repository: git://github.com/autarch/Dist-Zilla-Plugin-SurgicalPodWeaver.git
+version: '0.0023'
 x_Dist_Zilla:
   perl:
     version: '5.016003'
@@ -200,11 +200,11 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::DROLSKY::Contributors
       name: '@DROLSKY/DROLSKY::Contributors'
-      version: '0.24'
+      version: '0.25'
     -
       class: Dist::Zilla::Plugin::DROLSKY::License
       name: '@DROLSKY/DROLSKY::License'
-      version: '0.24'
+      version: '0.25'
     -
       class: Dist::Zilla::Plugin::Git::CheckFor::CorrectBranch
       config:
@@ -306,7 +306,7 @@ x_Dist_Zilla:
               name: Legal
               version: '4.006'
       name: '@DROLSKY/SurgicalPodWeaver'
-      version: '0.0021'
+      version: '0.0022'
     -
       class: Dist::Zilla::Plugin::PodSyntaxTests
       name: '@DROLSKY/PodSyntaxTests'
@@ -402,7 +402,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: 0
-          tag: v0.0022
+          tag: v0.0023
           tag_format: v%v
           tag_message: v%v
           time_zone: local

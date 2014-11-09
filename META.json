@@ -55,7 +55,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::SurgicalPodWeaver" : {
          "file" : "lib/Dist/Zilla/Plugin/SurgicalPodWeaver.pm",
-         "version" : "0.0022"
+         "version" : "0.0023"
       }
    },
    "release_status" : "stable",
@@ -67,11 +67,11 @@
       "homepage" : "http://metacpan.org/release/Dist-Zilla-Plugin-SurgicalPodWeaver",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/robertkrimen/Dist-Zilla-Plugin-SurgicalPodWeaver.git",
-         "web" : "https://github.com/robertkrimen/Dist-Zilla-Plugin-SurgicalPodWeaver"
+         "url" : "git://github.com/autarch/Dist-Zilla-Plugin-SurgicalPodWeaver.git",
+         "web" : "https://github.com/autarch/Dist-Zilla-Plugin-SurgicalPodWeaver"
       }
    },
-   "version" : "0.0022",
+   "version" : "0.0023",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.016003"
@@ -284,12 +284,12 @@
          {
             "class" : "Dist::Zilla::Plugin::DROLSKY::Contributors",
             "name" : "@DROLSKY/DROLSKY::Contributors",
-            "version" : "0.24"
+            "version" : "0.25"
          },
          {
             "class" : "Dist::Zilla::Plugin::DROLSKY::License",
             "name" : "@DROLSKY/DROLSKY::License",
-            "version" : "0.24"
+            "version" : "0.25"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::CheckFor::CorrectBranch",
@@ -422,7 +422,7 @@
                }
             },
             "name" : "@DROLSKY/SurgicalPodWeaver",
-            "version" : "0.0021"
+            "version" : "0.0022"
          },
          {
             "class" : "Dist::Zilla::Plugin::PodSyntaxTests",
@@ -547,7 +547,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : 0,
-                  "tag" : "v0.0022",
+                  "tag" : "v0.0023",
                   "tag_format" : "v%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"

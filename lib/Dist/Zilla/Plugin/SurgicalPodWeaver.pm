@@ -1,8 +1,8 @@
 package Dist::Zilla::Plugin::SurgicalPodWeaver;
-# git description: 7a6aee5
+# git description: v0.0022-4-g8ecd8b5
 
 # ABSTRACT: Surgically apply PodWeaver
-$Dist::Zilla::Plugin::SurgicalPodWeaver::VERSION = '0.0022';
+$Dist::Zilla::Plugin::SurgicalPodWeaver::VERSION = '0.0023';
 
 use Moose;
 extends qw/ Dist::Zilla::Plugin::PodWeaver /;
@@ -57,7 +57,7 @@ Dist::Zilla::Plugin::SurgicalPodWeaver - Surgically apply PodWeaver
 
 =head1 VERSION
 
-version 0.0022
+version 0.0023
 
 =head1 SYNOPSIS
 
