@@ -1,9 +1,8 @@
 package Dist::Zilla::Plugin::SurgicalPodWeaver;
-{
-  $Dist::Zilla::Plugin::SurgicalPodWeaver::VERSION = '0.0021';
-}
-# ABSTRACT: Surgically apply PodWeaver
+# git description: 7a6aee5
 
+# ABSTRACT: Surgically apply PodWeaver
+$Dist::Zilla::Plugin::SurgicalPodWeaver::VERSION = '0.0022';
 
 use Moose;
 extends qw/ Dist::Zilla::Plugin::PodWeaver /;
@@ -58,7 +57,7 @@ Dist::Zilla::Plugin::SurgicalPodWeaver - Surgically apply PodWeaver
 
 =head1 VERSION
 
-version 0.0021
+version 0.0022
 
 =head1 SYNOPSIS
 
@@ -84,13 +83,29 @@ If either condition is satisfied, PodWeavering will be done.
 
 You can forcefully disable PodWeaver on a .pm by using the C<-PodWeaver> hint
 
-=head1 AUTHOR
+=head1 AUTHORS
+
+=over 4
+
+=item *
 
 Robert Krimen <robertkrimen@gmail.com>
 
+=item *
+
+Dave Rolsky <autarch@urth.org>
+
+=back
+
+=head1 CONTRIBUTOR
+
+=for stopwords Robert Krimen
+
+Robert Krimen <rokr@cpan.org>
+
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Robert Krimen.
+This software is copyright (c) 2014 by Robert Krimen.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
